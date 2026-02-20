@@ -1,0 +1,39 @@
+# IDE
+.idea/
+*.iml
+
+# React Native / Node
+travel_app/node_modules/
+travel_app/.expo/
+travel_app/.expo-shared/
+
+# Android build artifacts
+travel_app/android/.gradle/
+travel_app/android/build/
+travel_app/android/app/build/
+travel_app/android/local.properties
+travel_app/android/app/debug.keystore
+
+# iOS build artifacts
+travel_app/ios/build/
+travel_app/ios/Pods/
+travel_app/ios/.xcode.env.local
+
+# Metro bundler cache
+travel_app/.metro-health-check*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
